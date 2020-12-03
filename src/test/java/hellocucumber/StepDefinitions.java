@@ -41,14 +41,13 @@ public class StepDefinitions {
       else
         answer = "Nope";
     } else
-      answer = "Nope";
+      answer = "Nopp";
 
   }
 
   @Then("I should be told {string}")
   public void i_should_be_told(String expected) {
     assertEquals(expected, answer);
-
   }
 
 }
