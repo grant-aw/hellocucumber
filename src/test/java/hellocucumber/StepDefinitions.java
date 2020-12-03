@@ -41,7 +41,7 @@ public class StepDefinitions {
       else
         answer = "Nope";
     } else
-      answer = "Nopp";
+      answer = "Nope";
 
   }
 
